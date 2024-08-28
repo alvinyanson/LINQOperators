@@ -16,7 +16,6 @@ namespace ThenBy
             {
                 Console.WriteLine($"{student.StudentName} {student.Age}");
             }
-            
         }
     }
 }
