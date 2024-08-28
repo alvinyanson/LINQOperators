@@ -27,6 +27,16 @@
 
             return StandardList;
         }
+
+        public static IList<string> SeedData3()
+        {
+            IList<string> StudentNames = new List<string>()
+            {
+                "John", "Steve", "Bill", "Ram", "Ron"
+            };
+
+            return StudentNames;
+        }
     }
 
     public class Student
