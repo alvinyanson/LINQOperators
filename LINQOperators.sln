@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleAndSingleOrDefault", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceEqual", "SequenceEqual\SequenceEqual.csproj", "{436F2036-6A2A-4D97-838F-2B7F61C1447E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concat", "Concat\Concat.csproj", "{BCFA1809-BA12-4F18-86DF-A26584E1F063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{436F2036-6A2A-4D97-838F-2B7F61C1447E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{436F2036-6A2A-4D97-838F-2B7F61C1447E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{436F2036-6A2A-4D97-838F-2B7F61C1447E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFA1809-BA12-4F18-86DF-A26584E1F063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFA1809-BA12-4F18-86DF-A26584E1F063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFA1809-BA12-4F18-86DF-A26584E1F063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFA1809-BA12-4F18-86DF-A26584E1F063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
