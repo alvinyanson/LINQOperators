@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyRangeRepeat", "EmptyRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Distinct\Distinct.csproj", "{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Except", "Except\Except.csproj", "{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
