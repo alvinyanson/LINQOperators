@@ -17,6 +17,21 @@
             return Students;
         }
 
+        public static IList<Student> SeedData4()
+        {
+            IList<Student> Students = new List<Student>()
+            {
+                new Student() { StandardId = 1, StudentId = 1, StudentName = "John", Age = 18 } ,
+                new Student() { StandardId = 1, StudentId = 2, StudentName = "Steve",  Age = 15 } ,
+                new Student() { StandardId = 1, StudentId = 3, StudentName = "Bill",  Age = 25 } ,
+                new Student() { StandardId = 2, StudentId = 4, StudentName = "Ram" , Age = 20 } ,
+                new Student() { StandardId = 3, StudentId = 5, StudentName = "Ron" , Age = 19 },
+                new Student() { StandardId = 3, StudentId = 6, StudentName = "Ram" , Age = 18 }
+            };
+
+            return Students;
+        }
+
         public static IList<Standard> SeedData2()
         {
             IList<Standard> StandardList = new List<Standard>() {
