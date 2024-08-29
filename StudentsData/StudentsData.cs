@@ -39,12 +39,20 @@
         }
     }
 
-    public class Student
+    public class Student : IComparable<Student>
     {
         public int StandardId { get; set; }
         public int StudentId { get; set; }
         public string StudentName { get; set; }
         public int Age { get; set; }
+
+        public int CompareTo(Student? other)
+        {
+            if (this.StudentName.Length >= other.StudentName.Length)
+                return 1;
+
+            return 0;
+        }
     }
 
 
