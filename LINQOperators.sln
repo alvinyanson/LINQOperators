@@ -33,21 +33,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count", "Count\Count.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max", "Max\Max.csproj", "{808A442F-CBD9-436B-9FF1-F3B5CD8AEC74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{DAAF2827-186F-487A-8642-6B8AB273AF04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum", "Sum\Sum.csproj", "{DAAF2827-186F-487A-8642-6B8AB273AF04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAndFirstOrDefault", "FirstAndFirstOrDefault\FirstAndFirstOrDefault.csproj", "{7FD3B6D7-C8C9-4D52-AA3F-FFA301EB567F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstAndFirstOrDefault", "FirstAndFirstOrDefault\FirstAndFirstOrDefault.csproj", "{7FD3B6D7-C8C9-4D52-AA3F-FFA301EB567F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastAndLastOrDefault", "LastAndLastOrDefault\LastAndLastOrDefault.csproj", "{2C4C9213-9C4A-4ABB-AA77-58CE1B7CFD54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LastAndLastOrDefault", "LastAndLastOrDefault\LastAndLastOrDefault.csproj", "{2C4C9213-9C4A-4ABB-AA77-58CE1B7CFD54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleAndSingleOrDefault", "SingleAndSingleOrDefault\SingleAndSingleOrDefault.csproj", "{6FDD7FFF-FDB9-4E86-903C-0ADCFA8AAE69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleAndSingleOrDefault", "SingleAndSingleOrDefault\SingleAndSingleOrDefault.csproj", "{6FDD7FFF-FDB9-4E86-903C-0ADCFA8AAE69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceEqual", "SequenceEqual\SequenceEqual.csproj", "{436F2036-6A2A-4D97-838F-2B7F61C1447E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceEqual", "SequenceEqual\SequenceEqual.csproj", "{436F2036-6A2A-4D97-838F-2B7F61C1447E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concat", "Concat\Concat.csproj", "{BCFA1809-BA12-4F18-86DF-A26584E1F063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concat", "Concat\Concat.csproj", "{BCFA1809-BA12-4F18-86DF-A26584E1F063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultIfEmpty", "DefaultIfEmpty\DefaultIfEmpty.csproj", "{98DA961C-8724-45AC-8C3A-F926D1298277}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultIfEmpty", "DefaultIfEmpty\DefaultIfEmpty.csproj", "{98DA961C-8724-45AC-8C3A-F926D1298277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyRangeRepeat", "EmptyRangeRepeat\EmptyRangeRepeat.csproj", "{A7B722F1-ED31-4F50-86C0-69650A0C2D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyRangeRepeat", "EmptyRangeRepeat\EmptyRangeRepeat.csproj", "{A7B722F1-ED31-4F50-86C0-69650A0C2D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Distinct\Distinct.csproj", "{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{A7B722F1-ED31-4F50-86C0-69650A0C2D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B722F1-ED31-4F50-86C0-69650A0C2D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B722F1-ED31-4F50-86C0-69650A0C2D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
