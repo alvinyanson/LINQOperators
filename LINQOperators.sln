@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultIfEmpty", "DefaultIf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyRangeRepeat", "EmptyRangeRepeat\EmptyRangeRepeat.csproj", "{A7B722F1-ED31-4F50-86C0-69650A0C2D72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Distinct\Distinct.csproj", "{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distinct", "Distinct\Distinct.csproj", "{9E4A9A30-1264-4A2D-956C-AE7D4567A42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Except", "Except\Except.csproj", "{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Except", "Except\Except.csproj", "{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersect", "Intersect\Intersect.csproj", "{7408BF16-EA02-4F5A-80ED-7AC0B4BA6068}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532184C7-5BA4-4B11-B5DD-78D43B6A14D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7408BF16-EA02-4F5A-80ED-7AC0B4BA6068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7408BF16-EA02-4F5A-80ED-7AC0B4BA6068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7408BF16-EA02-4F5A-80ED-7AC0B4BA6068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7408BF16-EA02-4F5A-80ED-7AC0B4BA6068}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
