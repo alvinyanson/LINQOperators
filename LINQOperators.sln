@@ -3,29 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Where", "Where\Where.csproj", "{C75BD1A8-B105-4331-B54C-E4B851961A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Where", "Where\Where.csproj", "{C75BD1A8-B105-4331-B54C-E4B851961A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfType", "OfType\OfType.csproj", "{66F51AFA-FF72-44D6-9446-BC1817612F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfType", "OfType\OfType.csproj", "{66F51AFA-FF72-44D6-9446-BC1817612F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderBy", "OrderBy\OrderBy.csproj", "{72FCA1F1-F1D1-4C8B-B0D3-9A6A13390AC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderBy", "OrderBy\OrderBy.csproj", "{72FCA1F1-F1D1-4C8B-B0D3-9A6A13390AC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsData", "StudentsData\StudentsData.csproj", "{601C92E6-C761-4FBA-8C47-8A88D940514C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsData", "StudentsData\StudentsData.csproj", "{601C92E6-C761-4FBA-8C47-8A88D940514C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThenBy", "ThenBy\ThenBy.csproj", "{04A74860-9292-438A-8C88-E7679C59D132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThenBy", "ThenBy\ThenBy.csproj", "{04A74860-9292-438A-8C88-E7679C59D132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupByToLookUp", "GroupByToLookUp\GroupByToLookUp.csproj", "{F37FE717-0450-4EFB-AAD6-86662D0E09A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupByToLookUp", "GroupByToLookUp\GroupByToLookUp.csproj", "{F37FE717-0450-4EFB-AAD6-86662D0E09A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join", "Join\Join.csproj", "{A1D653C5-1D13-4F2C-9C90-C355DD301860}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Join", "Join\Join.csproj", "{A1D653C5-1D13-4F2C-9C90-C355DD301860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupJoin", "GroupJoin\GroupJoin.csproj", "{0B27F47A-E036-4550-83E7-A762218A05B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupJoin", "GroupJoin\GroupJoin.csproj", "{0B27F47A-E036-4550-83E7-A762218A05B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Select", "Select\Select.csproj", "{F0CE5C2B-EFC8-4FE8-8520-1F7E1CC8818A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Select", "Select\Select.csproj", "{F0CE5C2B-EFC8-4FE8-8520-1F7E1CC8818A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllAny", "AllAnyContains\AllAny.csproj", "{1124F1D0-2EB4-4030-AABB-A2D73ACF2559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllAny", "AllAnyContains\AllAny.csproj", "{1124F1D0-2EB4-4030-AABB-A2D73ACF2559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains", "Contains\Contains.csproj", "{9BEEE833-36A5-40F7-9837-85FC181C5659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains", "Contains\Contains.csproj", "{9BEEE833-36A5-40F7-9837-85FC181C5659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Aggregate\Aggregate.csproj", "{82AFED83-4270-4DB6-80D6-EA33CB554660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregate", "Aggregate\Aggregate.csproj", "{82AFED83-4270-4DB6-80D6-EA33CB554660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average", "Average\Average.csproj", "{FC9299AA-6E9E-47C4-B041-BF0E63CF90BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{82AFED83-4270-4DB6-80D6-EA33CB554660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82AFED83-4270-4DB6-80D6-EA33CB554660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82AFED83-4270-4DB6-80D6-EA33CB554660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9299AA-6E9E-47C4-B041-BF0E63CF90BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9299AA-6E9E-47C4-B041-BF0E63CF90BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9299AA-6E9E-47C4-B041-BF0E63CF90BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9299AA-6E9E-47C4-B041-BF0E63CF90BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
