@@ -27,11 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains", "Contains\Contai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregate", "Aggregate\Aggregate.csproj", "{82AFED83-4270-4DB6-80D6-EA33CB554660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average", "Average\Average.csproj", "{FC9299AA-6E9E-47C4-B041-BF0E63CF90BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Average", "Average\Average.csproj", "{FC9299AA-6E9E-47C4-B041-BF0E63CF90BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count", "Count\Count.csproj", "{0E909C59-AEAC-4746-B91B-E0A300AF7FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count", "Count\Count.csproj", "{0E909C59-AEAC-4746-B91B-E0A300AF7FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max", "Sum\Max.csproj", "{808A442F-CBD9-436B-9FF1-F3B5CD8AEC74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max", "Max\Max.csproj", "{808A442F-CBD9-436B-9FF1-F3B5CD8AEC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{DAAF2827-186F-487A-8642-6B8AB273AF04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{808A442F-CBD9-436B-9FF1-F3B5CD8AEC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{808A442F-CBD9-436B-9FF1-F3B5CD8AEC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{808A442F-CBD9-436B-9FF1-F3B5CD8AEC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAF2827-186F-487A-8642-6B8AB273AF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAF2827-186F-487A-8642-6B8AB273AF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAF2827-186F-487A-8642-6B8AB273AF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAF2827-186F-487A-8642-6B8AB273AF04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,28 +1,27 @@
 ﻿using StudentsData;
-using System.Net.NetworkInformation;
 
-namespace Max
+namespace Sum
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            // USING METHOD SYNTAX
-            Console.WriteLine("USING METHOD SYNTAX");
             var data = Students.SeedData();
 
-            var max = data.Max(x => x.Age);
-            Console.WriteLine(max);
+            var sum = data.Sum(x =>
+            {
+                if (x.Age >= 18)
+                    return 1;
+
+                return 0;
+            });
+
+            Console.WriteLine(sum);
 
 
+            var sum2 = data.Sum(x => x.Age);
 
-            //USING METHOD SYNTAX WITH ICOMPARABLE
-
-            Console.WriteLine("\nUSING METHOD SYNTAX WITH ICOMPARABLE");
-
-            var longestName = data.Max();
-
-            Console.WriteLine(longestName.StudentName);
+            Console.WriteLine(sum2);
         }
     }
 }
